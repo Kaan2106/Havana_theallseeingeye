@@ -379,7 +379,7 @@ body { behavior: url({{ site.staticContentPath }}/web-gallery/js/csshover.htc); 
 		<li class="odd">
 		{% endif %}
             <div class="hotcampaign-container">
-                <a href="{{ HotCampaign.url }}"><img src="{{ site.staticContentPath }}/c_images/hot_campaign_images_all/{{ HotCampaign.image }}" align="left" alt="{{ HotCampaign.title }}" /></a>
+                <a href="{{ HotCampaign.url }}"><img src="{{ site.staticContentPath }}/c_images/banners/hot/{{ HotCampaign.image }}" align="left" alt="{{ HotCampaign.title }}" /></a>
                 <h3>{{ HotCampaign.title }}</h3>
                 <p>{{ HotCampaign.description }}</p>
                 <p class="link"><a href="{{ HotCampaign.url }}">{{ HotCampaign.urlText }} &raquo;</a></p>
@@ -391,7 +391,7 @@ body { behavior: url({{ site.staticContentPath }}/web-gallery/js/csshover.htc); 
         <!-- 
         <li class="odd">
             <div class="hotcampaign-container">
-                <a href="{{ site.sitePath }}/articles"><img src="{{ site.staticContentPath }}/c_images/hot_campaign_images_gb/hc.gif" align="left" alt="" /></a>
+                <a href="{{ site.sitePath }}/articles"><img src="{{ site.staticContentPath }}/c_images/banners/hot/club_hc.gif" align="left" alt="" /></a>
                 <h3>Exclusive Furniture!</h3>
                 <p>Join Habbo Club today and get access to exclusive furniture!</p>
 
